@@ -1,0 +1,5 @@
+a) El símbolo '-' indica que el miembro es privado. El símbolo '+' indica que el miembro es público.
+
+b) 'disponible' es de tipo booleano (bool) y puede tener los valores true o false.
+
+c) ToString() devuelve una representación en texto del objeto; se usa para mostrar información legible del objeto.
