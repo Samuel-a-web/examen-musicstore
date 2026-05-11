@@ -11,8 +11,8 @@ var lista = new List<Album>{
 foreach(var a in lista) Console.WriteLine(a);
 
 Console.WriteLine();
-Console.WriteLine("Álbumes de Metallica:");
-foreach(var a in lista) if(a.getArtista().Contains("Metallica")) Console.WriteLine(a);
+Console.WriteLine("Álbumes:");
+foreach(var a in lista) if(a.getArtista().Contains("Álbumes")) Console.WriteLine(a);
 
 Console.WriteLine();
 Console.WriteLine(DateTime.Now.ToShortDateString());
