@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.IO;
 
 var lista = new List<Album>{
-    new Album("album1","1",1986,true),
-    new Album("album2","2",1992,false),
+    new Album("Master of Puppets","Metallica",1986,true),
+    new Album("Thriller","Michael Jackson",1982,false),
     new Album("album3","3",1924,true)
 };
 
 foreach(var a in lista) Console.WriteLine(a);
 
 Console.WriteLine();
-Console.WriteLine("Álbumes:");
-foreach(var a in lista) if(a.getArtista().Contains("Álbumes")) Console.WriteLine(a);
+Console.WriteLine("Álbumes:");  
+foreach(var a in lista) if(a.getArtista().Contains("Metallica")) Console.WriteLine(a);
 
 Console.WriteLine();
 Console.WriteLine(DateTime.Now.ToShortDateString());
